@@ -4,9 +4,9 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
-    OpenGLWindow *openglWindow = new OpenGLWindow;
+    OpenGLWindow *opengl_window = new OpenGLWindow;
 
-    setCentralWidget(QWidget::createWindowContainer(openglWindow));
+    setCentralWidget(QWidget::createWindowContainer(opengl_window));
     resize(1280, 960);
 
 }
